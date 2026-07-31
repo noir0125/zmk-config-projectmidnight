@@ -1,0 +1,5 @@
+config SHIELD_MIDNIGHT52_LEFT
+    def_bool $(shields_list_contains,midnight52_left)
+
+config SHIELD_MIDNIGHT52_RIGHT
+    def_bool $(shields_list_contains,midnight52_right)
